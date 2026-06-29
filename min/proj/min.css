@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+
+    background:white;
+    padding:30px;
+    width:420px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+h1{
+
+    text-align:center;
+    margin-bottom:20px;
+    color:#333;
+
+}
+
+.password-box{
+
+    display:flex;
+    margin-bottom:20px;
+
+}
+
+.password-box input{
+
+    flex:1;
+    padding:12px;
+    font-size:17px;
+    border:2px solid #ddd;
+    border-radius:8px 0 0 8px;
+    outline:none;
+
+}
+
+.password-box button{
+
+    width:90px;
+    border:none;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+    border-radius:0 8px 8px 0;
+    font-size:15px;
+
+}
+
+.password-box button:hover{
+
+    background:#0056b3;
+
+}
+
+.settings{
+
+    margin-bottom:20px;
+
+}
+
+.setting{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:15px 0;
+
+}
+
+.setting label{
+
+    color:#333;
+
+}
+
+input[type="range"]{
+
+    width:100%;
+    margin-top:10px;
+
+}
+
+#generateBtn{
+
+    width:100%;
+    padding:12px;
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:17px;
+
+}
+
+#generateBtn:hover{
+
+    background:#1f7a35;
+
+}
+
+@media(max-width:500px){
+
+.container{
+
+width:90%;
+
+}
+
+}
